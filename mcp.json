@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "siyuan": {
+      "type": "streamableHttp",
+      "url": "${SCHEMA}://${SIYUAN_HOST}:${SIYUAN_PORT}/mcp",
+      "headers": {
+        "Authorization": "Token ${SIYUAN_API_TOKEN}"
+      },
+      "timeout": 30000
+    }
+  }
+}

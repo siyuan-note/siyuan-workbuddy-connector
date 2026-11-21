@@ -1,0 +1,23 @@
+{
+  "name": "思源笔记官方连接器",
+  "name_zh": "思源笔记官方连接器",
+  "name_en": "SiYuan Official Connector",
+  "description": "Search, read, write and organize your SiYuan notes, notebooks and blocks.",
+  "description_zh": "搜索、阅读、编写和整理思源笔记中的文档、笔记本与内容块。",
+  "description_en": "Search, read, write and organize your SiYuan notes, notebooks and blocks.",
+  "source": "siyuan",
+  "type": "mcp",
+  "auth_mode": "token",
+  "version": "1.0.3",
+  "minWorkbuddyVersion": "4.23.0",
+  "examples_zh": [
+    "在思源笔记里搜索关于项目计划的文档",
+    "总结我思源笔记中最近更新的内容",
+    "在思源笔记中新建一篇会议纪要"
+  ],
+  "examples_en": [
+    "Search my SiYuan notes for project plans",
+    "Summarize the recently updated notes in SiYuan",
+    "Create a meeting note in SiYuan"
+  ]
+}

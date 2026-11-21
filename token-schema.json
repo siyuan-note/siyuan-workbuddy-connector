@@ -1,0 +1,50 @@
+{
+  "title": "连接思源笔记",
+  "title_en": "Connect to SiYuan",
+  "description": "在思源笔记「设置 → 鉴权 → API token」中复制 API token，并确认服务地址。凭证仅保存在本机 ~/.workbuddy 目录。",
+  "description_en": "Copy the API token from SiYuan Settings → Authentication → API token and confirm the server address. Credentials are stored locally only.",
+  "fields": [
+    {
+      "key": "SCHEMA",
+      "label": "协议（http 或 https）",
+      "label_en": "Protocol (http or https)",
+      "type": "text",
+      "required": true,
+      "defaultValue": "http",
+      "placeholder": "http",
+      "description": "只填 http 或 https，不带 ://。本机服务填 http（默认），公网服务填 https。",
+      "description_en": "Enter only http or https, without ://. Use http for local services and https for public services."
+    },
+    {
+      "key": "SIYUAN_HOST",
+      "label": "思源服务主机（不含端口）",
+      "label_en": "SiYuan host (no port)",
+      "type": "text",
+      "required": true,
+      "defaultValue": "127.0.0.1",
+      "placeholder": "127.0.0.1",
+      "description": "只填写主机名或 IP，不要带 http://、端口和路径。本机默认 127.0.0.1；公网示例 siyuan.example.com。",
+      "description_en": "Enter the host name or IP only, without http://, port or path. Local default is 127.0.0.1; public example siyuan.example.com."
+    },
+    {
+      "key": "SIYUAN_PORT",
+      "label": "端口",
+      "label_en": "Port",
+      "type": "text",
+      "required": true,
+      "defaultValue": "6806",
+      "placeholder": "6806",
+      "description": "只填数字。思源本机默认 6806；公网 HTTPS 服务通常填 443。",
+      "description_en": "Digits only. SiYuan local default is 6806; public HTTPS services usually use 443."
+    },
+    {
+      "key": "SIYUAN_API_TOKEN",
+      "label": "API token",
+      "type": "password",
+      "required": true,
+      "placeholder": "设置 → 鉴权 → API token",
+      "description": "思源笔记「设置 → 鉴权 → API token」中显示的 API token，代表当前工作空间的管理员权限，请只连接可信客户端。",
+      "description_en": "The API token in SiYuan Settings → Authentication → API token; it grants workspace administrator access."
+    }
+  ]
+}
