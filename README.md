@@ -2,6 +2,7 @@
 <img alt="SiYuan" src="https://b3log.org/images/brand/siyuan-128.png" width="112">
 <br><br>
 <a title="AGPLv3" href="https://www.gnu.org/licenses/agpl-3.0.txt"><img src="https://img.shields.io/badge/license-AGPLv3-orange.svg?style=flat-square"></a>
+<a title="Validate" href="https://github.com/siyuan-note/siyuan-workbuddy-connector/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/siyuan-note/siyuan-workbuddy-connector/validate.yml?style=flat-square"></a>
 <a title="WorkBuddy" href="https://www.workbuddy.cn"><img src="https://img.shields.io/badge/platform-WorkBuddy-4B7BEC.svg?style=flat-square"></a>
 <a title="MCP" href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/protocol-MCP-8A63D2.svg?style=flat-square"></a>
 </p>
