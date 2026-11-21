@@ -197,6 +197,16 @@ def validate() -> tuple[Report, str | None]:
         if version not in changelog.read_text(encoding="utf-8"):
             report.warn(f"CHANGELOG.md has no entry for {version}")
 
+    # .gitattributes pins LF so that a local build and the CI build produce the
+    # same archive. A CRLF file means the working tree predates that rule and
+    # would yield a different sha256 than the release asset.
+    for path in iter_package_files():
+        if path.is_file() and b"\r\n" in path.read_bytes():
+            report.warn(
+                f"{path.relative_to(ROOT).as_posix()} contains CRLF line endings; "
+                "re-checkout the file so the build matches CI"
+            )
+
     return report, version
 
 
