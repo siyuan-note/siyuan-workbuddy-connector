@@ -109,7 +109,7 @@ python3 scripts/smoke_test.py --url https://siyuan.example.com --token xxxx --in
 
 ```
 endpoint https://siyuan.example.com/mcp
-server   SiYuan 3.9.0 (MCP 2025-11-25)
+server   SiYuan 3.8.11 (MCP 2025-11-25)
 session  KC4X5EISEFOWVS3UIPQWSRV7JB
 tools    31 available
          asset, attr, bazaar, block, bookmark, dailynote, database, document, ...
