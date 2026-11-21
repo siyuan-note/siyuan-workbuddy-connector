@@ -1,0 +1,8 @@
+# Keep the repository content LF even when checked out on Windows. The package
+# files are consumed by tooling that should see the exact same bytes everywhere.
+* text=auto eol=lf
+
+*.zip binary
+*.png binary
+*.jpg binary
+*.ico binary
