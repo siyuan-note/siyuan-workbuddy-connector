@@ -6,6 +6,14 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.4] - 2026-11-25
+
+### Fixed
+
+- Removed `minWorkbuddyVersion` so the connector is not filtered out of the mobile App
+  connector market. The mobile App uses an independent version line (2.9.1), so the previous
+  `4.23.0` floor hid the connector on phones even though the desktop client (5.11.3) showed it.
+
 ## [1.0.3] - 2026-11-21
 
 ### Fixed

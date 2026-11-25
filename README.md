@@ -20,9 +20,9 @@ The official connector that lets [WorkBuddy](https://www.workbuddy.cn) read and 
 | Display name | SiYuan Official Connector / 思源笔记官方连接器 |
 | Transport | MCP Streamable HTTP, `POST {base}/mcp` |
 | Auth | SiYuan API token, sent as `Authorization: Token <token>` |
-| Current version | 1.0.3 |
+| Current version | 1.0.4 |
 | Minimum SiYuan | 3.8.11 (tested floor; the MCP service itself dates back to 3.7.0) |
-| Minimum WorkBuddy | 4.23.0 |
+| Minimum WorkBuddy | not restricted (the token form needs 4.23.0+ on desktop) |
 | License | AGPL-3.0 |
 
 ## What it can do

@@ -8,8 +8,7 @@
   "source": "siyuan",
   "type": "mcp",
   "auth_mode": "token",
-  "version": "1.0.3",
-  "minWorkbuddyVersion": "4.23.0",
+  "version": "1.0.4",
   "examples_zh": [
     "在思源笔记里搜索关于项目计划的文档",
     "总结我思源笔记中最近更新的内容",

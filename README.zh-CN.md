@@ -20,9 +20,9 @@
 | 显示名称 | 思源笔记官方连接器 / SiYuan Official Connector |
 | 传输方式 | MCP Streamable HTTP，`POST {base}/mcp` |
 | 鉴权 | 思源 API token，请求头 `Authorization: Token <token>` |
-| 当前版本 | 1.0.3 |
+| 当前版本 | 1.0.4 |
 | 最低思源版本 | 3.8.11（实测下限；MCP 服务自 3.7.0 起提供） |
-| 最低 WorkBuddy 版本 | 4.23.0 |
+| 最低 WorkBuddy 版本 | 不限制（桌面端表单需 4.23.0+） |
 | 许可证 | AGPL-3.0 |
 
 ## 能力范围

@@ -116,8 +116,8 @@ def validate() -> tuple[Report, str | None]:
         for key in ("name", "name_en", "description", "description_en"):
             if not meta.get(key):
                 report.error(f"connector-meta.json is missing {key}")
-        if not SEMVER_RE.match(str(meta.get("minWorkbuddyVersion", ""))):
-            report.error("connector-meta.json minWorkbuddyVersion must be x.y.z")
+        if "minWorkbuddyVersion" in meta and not SEMVER_RE.match(str(meta["minWorkbuddyVersion"])):
+            report.error("connector-meta.json minWorkbuddyVersion must be x.y.z when present")
 
     field_keys: set[str] = set()
     fields: list[dict] = []
