@@ -17,7 +17,7 @@ The official connector that lets [WorkBuddy](https://www.workbuddy.cn) read and 
 | | |
 |---|---|
 | Package name | `siyuan` |
-| Display name | SiYuan Official Connector / 思源笔记官方连接器 |
+| Display name | SiYuan / 思源笔记 |
 | Transport | MCP Streamable HTTP, `POST {base}/mcp` |
 | Auth | SiYuan API token, sent as `Authorization: Token <token>` |
 | Current version | 1.0.4 |
@@ -42,7 +42,7 @@ per-workspace MCP capability settings still apply, exactly as they do in SiYuan.
 ## Install
 
 1. Open the connector marketplace in WorkBuddy and search for **思源笔记 / SiYuan**.
-2. Install **思源笔记官方连接器**, then fill in the four fields described below.
+2. Install **思源笔记** (SiYuan), then fill in the four fields described below.
 3. Chat with the agent; a first request such as "search my SiYuan notes for project plans"
    confirms the connection.
 

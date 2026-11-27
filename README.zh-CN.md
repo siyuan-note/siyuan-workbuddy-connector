@@ -9,7 +9,7 @@
 
 # 思源笔记 WorkBuddy 连接器
 
-思源笔记官方连接器，让 [WorkBuddy](https://www.workbuddy.cn) 通过 Model Context Protocol 读写你的
+思源笔记连接器，让 [WorkBuddy](https://www.workbuddy.cn) 通过 Model Context Protocol 读写你的
 [思源笔记](https://b3log.org/siyuan/) 工作空间。
 
 [English](README.md)
@@ -17,7 +17,7 @@
 | | |
 |---|---|
 | 包名 | `siyuan` |
-| 显示名称 | 思源笔记官方连接器 / SiYuan Official Connector |
+| 显示名称 | 思源笔记 / SiYuan |
 | 传输方式 | MCP Streamable HTTP，`POST {base}/mcp` |
 | 鉴权 | 思源 API token，请求头 `Authorization: Token <token>` |
 | 当前版本 | 1.0.4 |
@@ -40,7 +40,7 @@
 ## 安装
 
 1. 在 WorkBuddy 的连接器市场中搜索 **思源笔记 / SiYuan**。
-2. 安装 **思源笔记官方连接器**，按下文填写四个字段。
+2. 安装 **思源笔记**，按下文填写四个字段。
 3. 直接对智能体说一句「帮我在思源笔记里搜索关于项目计划的文档」，能返回结果即表示连接成功。
 
 API token 在思源 **设置 → 鉴权 → API token** 中获取。它代表工作空间管理员权限，请像对待密码一样保管。

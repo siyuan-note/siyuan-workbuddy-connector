@@ -6,6 +6,13 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-11-27
+
+### Changed
+
+- Renamed the connector to **思源笔记 / SiYuan** (previously 思源笔记官方连接器 / SiYuan
+  Official Connector) after the platform resolved the name conflict with the earlier occupant.
+
 ## [1.0.4] - 2026-11-25
 
 ### Fixed
